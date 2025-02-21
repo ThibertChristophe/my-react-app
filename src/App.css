@@ -1,1 +1,28 @@
+.bg-amindis-blue {
+  background-color: #003267;
+}
 
+.btn-amindis-blue {
+  background-color: #003267;
+  color: white;
+  &:hover {
+    color: black;
+    border-color: #003267;
+  }
+}
+
+.btn-amindis-orange {
+  background-color: #ee701a;
+  color: black;
+  &:hover {
+    color: white;
+    border-color: #ee701a;
+  }
+}
+
+.link-amindis-orange {
+  color: white;
+  &:hover {
+    color: #ee701a;
+  }
+}

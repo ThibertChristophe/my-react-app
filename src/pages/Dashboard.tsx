@@ -2,7 +2,7 @@ import { Link } from "react-router";
 
 export const Dashboard = () => {
   return (
-    <div className="pt-2">
+    <div>
       <h2>Dashboard</h2>
       <div className="row gap-2">
         <Link to="/" replace>
