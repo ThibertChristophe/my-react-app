@@ -9,6 +9,8 @@ const useAuth = () => {
     if (token?.length === 0 || token === null) {
       setUser(false);
     } else {
+      // verif du token si valide par exemple
+      // fetch api ou localement
       setUser(true);
     }
   }, []);

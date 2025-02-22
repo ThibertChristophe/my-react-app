@@ -7,6 +7,8 @@ const ConnectedLayout = () => {
   const { menu, isLoading } = useMenu();
 
   const handleClick = () => {
+    // logout
+    // effacement du token
     localStorage.removeItem("token");
     navigate("/");
   };

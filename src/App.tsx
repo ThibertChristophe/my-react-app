@@ -12,6 +12,9 @@ function App() {
 
   const handleSubmit = (e: { preventDefault: () => void }) => {
     e.preventDefault();
+    // procedure de login
+    // fetch api
+    // stockage du token
     localStorage.setItem("token", "12345");
     navigate("/dashboard");
   };
@@ -21,9 +24,9 @@ function App() {
       className="container-fluid vh-100 d-flex align-items-center justify-content-center bg-light"
       style={{
         backgroundImage: `url(${background})`,
-        backgroundSize: "cover", // Couvre toute la zone
-        backgroundPosition: "center", // Centrer l'image
-        backgroundRepeat: "no-repeat", // Ne pas répéter l'image
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
       }}
     >
       <div

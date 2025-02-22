@@ -5,6 +5,7 @@ const useMenu = () => {
   const [isLoading, setIsLoading] = useState<boolean>(true);
 
   useEffect(() => {
+    // fetch pour recuperer le menu
     setMenu(["Dashboard", "Produits", "A propos"]);
     setIsLoading(false);
   }, []);
